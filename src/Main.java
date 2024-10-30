@@ -93,4 +93,20 @@ public class Main {
         System.out.println("+------------------+-------------+-------------------+--------------------+");
 
 
+        System.out.println('\n');
+        System.out.print("Enter the Customer  give Cash :");
+        float cash=scan.nextFloat();
+        System.out.println('\n');
+
+        System.out.println("+-----------------+------------------+");
+        System.out.printf("|   Net Amount    |    %-14.2f|", price);
+        System.out.println("+-----------------+------------------+");
+
+        System.out.printf("|   Cash          |    %-14.2f|", cash);
+        System.out.println("+-----------------+------------------+");
+
+        System.out.printf("|   Change        |    %-14.2f|", (cash-price));
+        System.out.println("+-----------------+------------------+");
+
+
     }}
