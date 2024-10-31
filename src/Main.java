@@ -109,4 +109,41 @@ public class Main {
         System.out.println("+-----------------+------------------+");
 
 
+        float d=cash-price;
+        int x=(int)d;
+        int R5000=x/5000;
+
+        int z=x%5000;
+        int R2000=z/2000;
+
+        z=z%2000;
+        int R1000=z/1000;
+
+        z=z%1000;
+        int R500=z/500;
+
+        z=z%500;
+        int R100=z/100;
+
+        z=z%100;
+        int R50=z/50;
+
+        z=z%50;
+        int R20=z/20;
+
+        z=z%20;
+        int R10=z/10;
+
+        z=z%10;
+        int R5=z/5;
+
+        z=z%5;
+        int R2=z/2;
+
+        z=z%2;
+        int R1=z/1;
+
+        int note=R5000+R2000+R1000+R500+R100+R50+R20;
+        int coins=R10+R5+R2+R1;
+
     }}
