@@ -146,4 +146,40 @@ public class Main {
         int note=R5000+R2000+R1000+R500+R100+R50+R20;
         int coins=R10+R5+R2+R1;
 
+
+        System.out.println('\n');
+        System.out.println("+---------------+-----------+");
+        System.out.println("|     Value     |     No    |");
+        System.out.println("+---------------+-----------+");
+        System.out.println("|    Rs.5000    |     "+R5000+"     |");
+        System.out.println("|---------------|-----------|");
+        System.out.println("|    Rs.2000    |     "+R2000+"     |");
+        System.out.println("|---------------|-----------|");
+        System.out.println("|    Rs.1000    |     "+R1000+"     |");
+        System.out.println("|---------------|-----------|");
+        System.out.println("|    Rs.500     |     "+R500+"     |");
+        System.out.println("|---------------|-----------|");
+        System.out.println("|    Rs.100     |     "+R100+"     |");
+        System.out.println("|---------------|-----------|");
+        System.out.println("|    Rs.50      |     "+R50+"     |");
+        System.out.println("|---------------|-----------|");
+        System.out.println("|    Rs.20      |     "+R20+"     |");
+        System.out.println("|---------------|-----------|");
+        System.out.println("|    Rs.10      |     "+R10+"     |");
+        System.out.println("|---------------|-----------|");
+        System.out.println("|    Rs.5       |     "+R5+"     |");
+        System.out.println("|---------------|-----------|");
+        System.out.println("|    Rs.2       |     "+R2+"     |");
+        System.out.println("|---------------|-----------|");
+        System.out.println("|    Rs.1       |     "+R1+"     |");
+        System.out.println("+---------------+-----------+");
+        System.out.println("|  No of Notes  |     "+note+"     |");
+        System.out.println("+---------------+-----------+");
+        System.out.println("|  No of Coins  |     "+coins+"     |");
+        System.out.println("+---------------+-----------+");
+        System.out.println('\n');
+        System.out.println("-------------------------------------------");
+        System.out.println("       THANK YOU FOR SHOPPING WITH US      ");
+        System.out.println("-------------------------------------------");
+
     }}
